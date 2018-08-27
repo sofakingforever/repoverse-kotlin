@@ -2,7 +2,7 @@
 [![Download](https://api.bintray.com/packages/sofakingforever/repoverse/repoverse-kotlin/images/download.svg) ](https://bintray.com/sofakingforever/repoverse/repoverse-kotlin/_latestVersion)
 
 # RepoVerse - Latest Repository Package Version
-This is a Java/Kotlin library to check for the new latest version of your package
+This is a Java/Kotlin library to check against Maven for the latest version of your package
 
 For example: If you want your SDK to check its own version again maven, to understand if it needs to be updated.
 This how I used it in [solid-kotlin-analytics'](https://github.com/sofakingforever/solid-kotlin-analytics/tree/master/analytics/src/main/java/com/sofakingforever/analytics/version) source code.
