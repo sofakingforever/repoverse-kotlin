@@ -1,6 +1,7 @@
 # RepoVerse - Latest Repository Package Version
 This is a Java/Kotlin library to check for the latest package release on a repository (GitHub & Bintray only for now)
-You can use this to validate that the current version is indeed the latest version on your github repo / bintray artifact repo.
+
+You can use this to validate that the current version is indeed the latest version on your github repo / bintray artifact repo. This library is using OkHttp3 as a dependency.
 
 [![Download](https://api.bintray.com/packages/sofakingforever/repoverse/repoverse-kotlin/images/download.svg) ](https://bintray.com/sofakingforever/repoverse/repoverse-kotlin/_latestVersion)
 
