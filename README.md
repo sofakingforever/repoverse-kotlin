@@ -24,7 +24,11 @@ dependencies {
 Create a new resolver with the repo's path, and call resolve() with the callback
 
 ```java
-RemoteVersionResolver bintrayResolver = new BintrayVersionResolver("sofakingforever/repoverse/repoverse-kotlin");
+// Check via Bintray
+RemoteVersionResolver bintrayResolver = new BintrayVersionResolver("sofakingforever/analytics/kotlin-analytics");
+
+// Check via GitHub
+RemoteVersionResolver githubResolver = new GitHubVersionResolver("sofakingforever/solid-kotlin-analytics");
 
 bintrayResolver.resolve(latestVersion -> {
             System.out.println("BinTray Latest Version: " + latestVersion.toString());
