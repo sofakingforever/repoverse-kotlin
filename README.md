@@ -1,9 +1,16 @@
+
+[![Download](https://api.bintray.com/packages/sofakingforever/repoverse/repoverse-kotlin/images/download.svg) ](https://bintray.com/sofakingforever/repoverse/repoverse-kotlin/_latestVersion)
+
 # RepoVerse - Latest Repository Package Version
 This is a Java/Kotlin library to check for the latest package release on a repository (GitHub & Bintray only for now)
 
-You can use this to validate that the current version is indeed the latest version on your github repo / bintray artifact repo. This library is using OkHttp3 as a dependency.
+You can use this to validate that a version is indeed the latest version on your github repo / bintray artifact repo. This library is using OkHttp3 as a dependency.
 
-[![Download](https://api.bintray.com/packages/sofakingforever/repoverse/repoverse-kotlin/images/download.svg) ](https://bintray.com/sofakingforever/repoverse/repoverse-kotlin/_latestVersion)
+For example: If you want your SDK to check its own version again maven, to understand if it needs to be updated.
+You can see how I used it in [kotlin-analytic's](https://github.com/sofakingforever/solid-kotlin-analytics/tree/master/analytics/src/main/java/com/sofakingforever/analytics/version) source code
+
+#### Originally developed for
+#### [solid-kotlin-analytics](https://github.com/sofakingforever/solid-kotlin-analytics)
 
 ## Quick Start Guide
 
@@ -38,12 +45,6 @@ bintrayResolver.resolve(latestVersion -> {
 
         });
 ```
-
-#### See more integration examples in the [source code](https://github.com/sofakingforever/repoverse-kotlin/blob/master/src/main/java/com/sofakingforever/repoverse/Main.java)
-
-
-### Originally developed for
-#### [solid-kotlin-analytics](https://github.com/sofakingforever/solid-kotlin-analytics)
 
 License
 -------
