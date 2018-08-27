@@ -18,8 +18,8 @@ dependencies {
 }
 ```
 
-### Kotlin Implementation Example
-Initiate analytics and send events
+### Java Implementation Example
+Create a new resolver with the repo's path, and call resolve() with the callback
 
 ```java
 RemoteVersionResolver bintrayResolver = new BintrayVersionResolver("sofakingforever/repoverse/repoverse-kotlin");
