@@ -1,6 +1,7 @@
 # RepoVerse - Latest Repository Package Version
 This is a Java/Kotlin library to check for the latest package release on a repository (GitHub & Bintray only for now)
 
+[![Download](https://api.bintray.com/packages/sofakingforever/repoverse/repoverse-kotlin/images/download.svg) ](https://bintray.com/sofakingforever/repoverse/repoverse-kotlin/_latestVersion)
 
 ## Quick Start Guide
 
@@ -21,7 +22,7 @@ dependencies {
 Initiate analytics and send events
 
 ```java
-RemoteVersionResolver bintrayResolver = new BintrayVersionResolver("sofakingforever/analytics/kotlin-analytics");
+RemoteVersionResolver bintrayResolver = new BintrayVersionResolver("sofakingforever/repoverse/repoverse-kotlin");
 
 bintrayResolver.resolve(latestVersion -> {
             System.out.println("BinTray Latest Version: " + latestVersion.toString());
