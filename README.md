@@ -7,10 +7,9 @@ This is a Java/Kotlin library to check for the latest package release on a repos
 You can use this to validate that a version is indeed the latest version on your github repo / bintray artifact repo. This library is using OkHttp3 as a dependency.
 
 For example: If you want your SDK to check its own version again maven, to understand if it needs to be updated.
-You can see how I used it in [kotlin-analytic's](https://github.com/sofakingforever/solid-kotlin-analytics/tree/master/analytics/src/main/java/com/sofakingforever/analytics/version) source code
+You can see how I used it in [solid-kotlin-analytics'](https://github.com/sofakingforever/solid-kotlin-analytics/tree/master/analytics/src/main/java/com/sofakingforever/analytics/version) source code
 
-#### Originally developed for
-#### [solid-kotlin-analytics](https://github.com/sofakingforever/solid-kotlin-analytics)
+#### Originally developed for [solid-kotlin-analytics](https://github.com/sofakingforever/solid-kotlin-analytics)
 
 ## Quick Start Guide
 
