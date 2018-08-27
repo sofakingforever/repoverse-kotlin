@@ -13,14 +13,18 @@ public class Main {
         RemoteVersionResolver bintrayResolver = new BintrayVersionResolver("sofakingforever/analytics/kotlin-analytics");
 
 
-        githubResolver.resolve(latestVersion -> {
-            System.out.println("GitHub Latest Version: " + latestVersion.toString());
-
+        githubResolver.resolve(new RemoteVersionResolver.Callback() {
+            @Override
+            public void onVersionResolved(@NotNull Version latestVersion) {
+                System.out.println("GitHub Latest Version: " + latestVersion.toString());
+            }
         });
 
-        bintrayResolver.resolve(latestVersion -> {
-            System.out.println("BinTray Latest Version: " + latestVersion.toString());
-
+        bintrayResolver.resolve(new RemoteVersionResolver.Callback() {
+            @Override
+            public void onVersionResolved(@NotNull Version latestVersion) {
+                System.out.println("BinTray Latest Version: " + latestVersion.toString());
+            }
         });
 
     }
