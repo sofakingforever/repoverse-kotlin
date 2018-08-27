@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation "com.sofakingforever.repoverse:repoverse:1.0.1@aar"
+    implementation "com.sofakingforever.repoverse:repoverse:1.0.2"
 }
 ```
 
