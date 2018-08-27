@@ -1,4 +1,4 @@
-group 'sofakingforever'
+group 'com.sofakingforever.repoverse'
 version '1.0.1'
 
 buildscript {
@@ -46,7 +46,7 @@ ext {
     bintrayName = 'repoverse-kotlin'
 
     publishedGroupId = 'com.sofakingforever.repoverse'
-    artifact = 'repoverse-kotlin'
+    artifact = 'repoverse'
     libraryName = 'repoverse'
     libraryVersion = "1.0.1"
 
