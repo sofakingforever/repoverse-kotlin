@@ -1,5 +1,5 @@
 group 'com.sofakingforever.repoverse'
-version '1.0.1'
+version '1.0.2'
 
 buildscript {
     ext.kotlin_version = '1.1.51'
@@ -48,7 +48,7 @@ ext {
     publishedGroupId = 'com.sofakingforever.repoverse'
     artifact = 'repoverse'
     libraryName = 'repoverse'
-    libraryVersion = "1.0.1"
+    libraryVersion = "1.0.2"
 
     libraryDescription = 'RepoVerse is a Java/Kotlin library to check for the latest package release on a repository'
 
