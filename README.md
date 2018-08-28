@@ -44,6 +44,12 @@ bintrayResolver.resolve(latestVersion -> {
 
         });
 ```
+
+If you encouter proguard issues when compiling, try adding this line to your proguard configuration
+```proguard
+-dontwarn com.sofakingforever.repoverse.**
+```
+
 ## Todo List
 
 - [x] Bintray Implementation
